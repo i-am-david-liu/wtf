@@ -1,9 +1,11 @@
-# wtf - [w]hat's [t]hat [f]ile?
+# wtf - What's That File?
 `wtf` is a tiny CLI for taking notes on files and folders within a directory.
 ## Usage
 - `wtf` displays all the notes for your files and folders within the current directory. A `.wtf` file must be initialized first.
 - `wtf init` sets up a file named `.wtf` within the current directory. This file keeps track of your notes.
 - `wtf note <file> <note>` adds a note to the specified file.
+## Install
+- Download `wtf.sh` into a dedicated folder and set an alias in `.bashrc` to execute from that path (a better method will come in the future)
 ## Example
 ```
 $ wtf
@@ -22,8 +24,8 @@ journal/    | daily writing pad
 TODO.txt    | my computer-related TODO file
 ```
 ## TODO
-- [] monitor new / deleted files and change `.wtf` accordingly
-- [] `wtf <file>` should return a note corresponding to that file
-- [] A way to only display files with notes attached
-- [] A way to add a note to multiple files
-- [] colored output
+- [ ] monitor new / deleted files and change `.wtf` accordingly
+- [ ] `wtf <file>` should return a note corresponding to that file
+- [ ] A way to only display files with notes attached
+- [ ] A way to add a note to multiple files
+- [ ] colored output
