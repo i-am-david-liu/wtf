@@ -9,19 +9,19 @@
 ## Example
 ```
 $ wtf
-.test       | hi
-.test3/     |
-math.c      |
-journal/    |
-TODO.txt    | my computer-related TODO file
+.test    | hi
+.test3/  |
+math.c   |
+journal/ |
+TODO.txt | my computer-related TODO file
 $ wtf note math.c "math project code" 
 $ wtf note journal/ "daily writing pad"
 $ wtf
-.test       | hi
-.test3/     |
-math.c      | math project code
-journal/    | daily writing pad
-TODO.txt    | my computer-related TODO file
+.test    | hi
+.test3/  |
+math.c   | math project code
+journal/ | daily writing pad
+TODO.txt | my computer-related TODO file
 ```
 ## TODO
 - [ ] monitor new / deleted files and change `.wtf` accordingly
