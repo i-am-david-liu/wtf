@@ -22,8 +22,8 @@ journal/    | daily writing pad
 TODO.txt    | my computer-related TODO file
 ```
 ## TODO
-[ ] monitor new / deleted files and change `.wtf` accordingly
-[ ] `wtf <file>` should return a note corresponding to that file
-[ ] A way to only display files with notes attached
-[ ] A way to add a note to multiple files
-[ ] colored output
+- [] monitor new / deleted files and change `.wtf` accordingly
+- [] `wtf <file>` should return a note corresponding to that file
+- [] A way to only display files with notes attached
+- [] A way to add a note to multiple files
+- [] colored output
